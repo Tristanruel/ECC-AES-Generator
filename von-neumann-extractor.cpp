@@ -19,7 +19,7 @@ vector<int> vonNeumannExtract(const vector<int>& input) {
 }
 
 int main() {
-    ifstream file("Radiation Data/20241024_23_01_35.csv");
+    ifstream file("Radiation Data/20241025_10_30_54.csv");
     string line;
     vector<int> all_bits;
 
