@@ -1,6 +1,6 @@
 # Cryptographic Key Generation Suite
 
-This project comprises a suite of cryptographic key generation tools using various algorithms and methods. The suite includes AES key generation, ECC key generation, and a randomness extractor based on von Neumann's method.
+This project comprises a suite of cryptographic key generation tools that utilise the natural radioactive decay of Uranium-238 (U-238) to generate randomness. This method ensures the production of highly secure and unique keys for both AES and ECC encryption systems. The suite includes an AES key generator, an ECC key generator, and a von Neumann randomness extractor.
 
 ## Modules
 
