@@ -6,11 +6,11 @@ This project comprises a suite of cryptographic key generation tools using vario
 
 ### AES Key Generator (`AES-generator.cpp`)
 
-Generates a 256-bit AES key by XORing binary codes from selected randomness files, which are then deleted to ensure each key is used only once. The keys are stored in the `AES Keys` directory.
+Generates a 256-bit AES key by XORing binary codes from selected randomness files, which are then deleted to ensure each key is used only once. The keys are then stored in the `AES Keys` directory.
 
 ### ECC Key Generator (`ECC-generator.cpp`)
 
-Generates elliptic curve cryptography (ECC) key pairs based on the secp256r1 curve. It selects two binary code files from the `Randomness` directory, computes ECC keys, and outputs them into the `ECC Keys` directory. Each key generation results in one private key and a corresponding public key, although public key computation can be enabled by uncommenting certain parts of the code.
+Generates elliptic curve cryptography (ECC) key pairs based on the secp256r1 curve. It selects two binary code files from the `Randomness` directory, computes ECC keys, and outputs them into the `ECC Keys` directory. Each key generation results in one private key and a corresponding public key.
 
 ### Von Neumann Extractor (`von-neumann-extractor.cpp`)
 
