@@ -2,7 +2,8 @@ import pandas as pd
 
 user_response = input("Does the data need processing? (yes/no): ")
 
-def process_table(file_path):
+'''
+ def process_table(file_path):
     try:
         df = pd.read_csv(file_path)
 
@@ -27,11 +28,13 @@ def process_table(file_path):
         print("The input file is empty.")
     except Exception as e:
         print(f"An error occurred: {e}")
-
+'''
 
 yes = {'yes', 'y', 'YES', 'Yes', 'yEs', 'yeS'}
 
-if user_response.lower() in yes:
+no = {'tt'}
+
+if user_response.lower() in no:
     file_path = 'Radiation Data/20241025_10_30_54.csv'
     data = pd.read_csv(file_path, header=None)
 
@@ -42,9 +45,9 @@ if user_response.lower() in yes:
     data.to_csv(file_path, index=False, header=False)
 
     print("First 4 columns and first 3 rows have been removed successfully.")
-    process_table(file_path)
-    data = pd.read_csv(file_path, header=None)
-    data = data.iloc[1:]
-    data.to_csv(file_path, index=False, header=False)
+    # process_table(file_path)
+    # data = pd.read_csv(file_path, header=None)
+    # data = data.iloc[1:]
+    # data.to_csv(file_path, index=False, header=False)
 else:
     print("Ok")
