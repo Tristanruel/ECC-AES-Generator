@@ -1,0 +1,5 @@
+Max_File_Size = 8GB
+Name_encryption = 0
+Deletion_Setting = 0
+Delete_Radiation_Files = 0
+Rustic_Nuclear_Mode = 0
