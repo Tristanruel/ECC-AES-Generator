@@ -37,7 +37,7 @@ if not exist "vcpkg.exe" (
 
 echo Installing C++ libraries via vcpkg...
 vcpkg install openssl:x64-windows libzip:x64-windows gmp:x64-windows
-
+vcpkg install catch2
 
 echo Installing Python packages...
 pip install pandas sympy tkinterdnd2
