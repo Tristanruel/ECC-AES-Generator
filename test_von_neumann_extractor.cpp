@@ -1,5 +1,5 @@
 #define CATCH_CONFIG_MAIN
-#include <catch2/catch_test_macros.hpp>
+#include <catch2/catch_all.hpp>
 #include <vector>
 //g++ test_von_neumann_extractor.cpp -o test_runner -std=c++17 -I"C:\Users\Tristan Ruel\vcpkg\installed\x64-windows\include"
 
